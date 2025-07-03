@@ -88,7 +88,7 @@ public class Main {
         String name = "";
         double value = 0;
         double discount_value = 0;
-        double final_value = 0;
+        double final_value;
 
         value = switch (item) {
             case 1 -> {
