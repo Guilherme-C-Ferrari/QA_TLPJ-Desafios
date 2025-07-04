@@ -40,7 +40,7 @@ public class Main {
             Float.parseFloat(input);
             return Float.parseFloat(input);
         } catch (NumberFormatException e) {
-            System.out.println("Opção inválida");
+            System.out.println("Nota inválida");
             System.exit(0);
             return -1;
         }
