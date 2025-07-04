@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Main.menu();
+        Main.startMenu();
     }
 
-    public static void menu() {
+    public static void startMenu() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Bem-vindo ao mercado.\nDigite abaixo o que deseja comprar:");
