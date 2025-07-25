@@ -20,15 +20,18 @@ public class Main {
                 System.out.println("Valor inválido. Digite um número válido.\n");
                 continue;
             }
+            break;
+        }
 
+        while (true) {
             System.out.print("\nInforme o denominador: ");
             second_value = isFloat(scanner.nextLine());
 
             if (second_value == null) {
-                System.out.println("Valor inválido. Digite um número válido.\n");
+                System.out.println("Valor inválido. Digite um número válido.");
                 continue;
             } else if (second_value == 0) {
-                System.out.println("O denominador não pode ser zero.\n");
+                System.out.println("O denominador não pode ser zero.");
                 continue;
             }
 
